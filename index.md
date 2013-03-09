@@ -7,7 +7,7 @@ tagline:
 	                                                                              --- Joseph Campbell   
 	Something to do; Someone to love; Something to hope for.  
 																		                                       --- Immanuel Kant
-#### If I rest, I Rust ####
+#### If I Rest, I Rust ####
 The significant inscription found on an old key \--If I rest, I rust\-- would be an excellent motto for those who are afflicted with the slightest bit of idleness. Even the most industrious person might adopt it with advantage to serve as a reminder that, if one allows his faculties to rest, like the iron in the unused key, they will soon show signs of rust and, ultimately, cannot do the work required of them.  
 
 Those who would attain the heights reached and kept by great men must keep their faculties polished by constant use, so that they may unlock the doors of knowledge, the gate that guard the entrances to the professions, to science, art, literature, agriculture \- every department of human endeavor.  
