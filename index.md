@@ -8,7 +8,7 @@ tagline:
 	                                                                              --- Joseph Campbell  
 #### Rules for Happiness ####
 	Something to do; Someone to love; Something to hope for.  
-																		--- Kant
+																		                                       --- Immanuel Kant
 {% include JB/setup %}
 <ul class="posts">
   {% for post in site.posts %}
