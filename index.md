@@ -7,6 +7,13 @@ tagline:
 	                                                                              --- Joseph Campbell   
 	Something to do; Someone to love; Something to hope for.  
 																		                                       --- Immanuel Kant
+#### Newer Posts ####
+{% include JB/setup %}
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 #### If I Rest, I Rust ####
 The significant inscription found on an old key \--If I rest, I rust\-- would be an excellent motto for those who are afflicted with the slightest bit of idleness. Even the most industrious person might adopt it with advantage to serve as a reminder that, if one allows his faculties to rest, like the iron in the unused key, they will soon show signs of rust and, ultimately, cannot do the work required of them.  
 
@@ -15,10 +22,3 @@ Those who would attain the heights reached and kept by great men must keep their
 Industry keeps bright the key that opens the treasury of achievement. If Hugh Miller, after toiling all day in a quarry, had devoted his evenings to rest and recreation, he would never have become a famous geologist. The celebrated mathematician, Edmund Stone, would never have published a mathematical dictionary, never have found the key to science of mathematics, if he had given his spare moments to idleness, had the little Scotch lad, Ferguson, allowed the busy brain to go to sleep while he tended sheep on the hillside instead of calculating the position of the stars by a string of beads, he would never have become a famous astronomer.  
 
 Labor vanquishes all \- not inconstant, spasmodic, or ill\-directed labor; but faithful, unremitting, daily effort toward a well\-directed purpose. Just as truly as eternal vigilance is the price of liberty, so is eternal industry the price of noble and enduring success.  
-
-{% include JB/setup %}
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
