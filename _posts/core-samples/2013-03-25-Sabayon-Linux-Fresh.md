@@ -29,3 +29,33 @@ I admit that what a linux actually attracts me is just about two aspects:
 [**NUPT**](www.njupt.edu.cn). What attracted me a lot lies in that the compize's cool cubic destkop effects. However, I don't like it's theme 
 appearence, So in the next tries, I try other linux distribution mentioned above.
 - *mirror source&package manager* It means that how convient it bring to you. Imagine that when you want to install a software for your work,  
+
+#### Some basic configure for Sabayon installation ####
+
+- Git configure and SSh protocol configure:
+  	git config --global core.editor "nano"
+  	git config --global user.name "Joseph Heng"
+  	git config --global user.email "lengerfulluse@gmail.com"
+  	git completion bash. we add it in .bashrc with command `source ~/.git-completion.sh`
+	copy the private, public keys and known_hosts to the ~/.ssh directory.
+- Select the faster mirror for the package update and source download, first you should know where the repositories list lie in: 
+	/etc/entropy/repositories.conf
+  then to test the connection speed of these repositories, and then choose the faster.
+	equo repo mirrorsort sabayonlinux.org   \# for Daily reportory
+	equo repo mirrorsort sabayon-weekly     \# for Weekly reportory
+	equo repo mirrorsort sabayon-limbo      \# as limbo implied, the test reportory. Be careful to use!!!
+
+- Equo Update and install:
+	equo update
+	equo install entropy rigo
+- Keyboard Shortcut:
+	bind the *Alt+T* to open a terminal
+	bind the *Alt+J* to switch the terminal to previous tab
+	bind the *ALt+K* to switch the termianl to next tab
+	bind the *Meta+D* to display the desktop.
+- Be familar some basic package manager tools:
+	equo [search install ...] 
+	rigo GUI entropy manager tools.
+	eselect
+	emerge
+
