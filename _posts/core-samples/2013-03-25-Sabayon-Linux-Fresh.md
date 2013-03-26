@@ -32,30 +32,33 @@ appearence, So in the next tries, I try other linux distribution mentioned above
 
 #### Some basic configure for Sabayon installation ####
 
-- Git configure and SSh protocol configure:
-  	git config --global core.editor "nano"
-  	git config --global user.name "Joseph Heng"
-  	git config --global user.email "lengerfulluse@gmail.com"
-  	git completion bash. we add it in .bashrc with command `source ~/.git-completion.sh`
-	copy the private, public keys and known_hosts to the ~/.ssh directory.
-- Select the faster mirror for the package update and source download, first you should know where the repositories list lie in: 
-	/etc/entropy/repositories.conf
-  then to test the connection speed of these repositories, and then choose the faster.
-	equo repo mirrorsort sabayonlinux.org   \# for Daily reportory
-	equo repo mirrorsort sabayon-weekly     \# for Weekly reportory
-	equo repo mirrorsort sabayon-limbo      \# as limbo implied, the test reportory. Be careful to use!!!
+- Git configure and SSh protocol configure:  
+>  	git config --global core.editor "nano"  
+>  	git config --global user.name "Joseph Heng"  
+>  	git config --global user.email "lengerfulluse@gmail.com"  
+>  	git completion bash. we add it in .bashrc with command `source ~/.git-completion.sh`  
+>	copy the private, public keys and known_hosts to the ~/.ssh directory.  
+- Select the faster mirror for the package update and source download, first you should know where the repositories list lie in:  
+>	/etc/entropy/repositories.conf  
+  then to test the connection speed of these repositories, and then choose the faster.  
+>	equo repo mirrorsort sabayonlinux.org   \# for Daily reportory  
+>	equo repo mirrorsort sabayon-weekly     \# for Weekly reportory  
+>	equo repo mirrorsort sabayon-limbo      \# as limbo implied, the test reportory. Be careful to use!!!  
 
-- Equo Update and install:
-	equo update
-	equo install entropy rigo
-- Keyboard Shortcut:
-	bind the *Alt+T* to open a terminal
-	bind the *Alt+J* to switch the terminal to previous tab
-	bind the *ALt+K* to switch the termianl to next tab
-	bind the *Meta+D* to display the desktop.
-- Be familar some basic package manager tools:
-	equo [search install ...] 
-	rigo GUI entropy manager tools.
-	eselect
-	emerge
+- Equo Update and install:  
+>	equo update  
+>	equo install entropy rigo  
+- Keyboard Shortcut:  
+>	bind the *Alt+T* to open a terminal  
+>	bind the *Alt+J* to switch the terminal to previous tab  
+>	bind the *ALt+K* to switch the termianl to next tab  
+>	bind the *Meta+D* to display the desktop.  
+- Be familar some basic package manager tools:  
+>	equo [search install ...]   
+>	rigo GUI entropy manager tools.  
+>	eselect  
+>	emerge  
 
+#### Migrate from Gnome to Fluxbox ####
+Occasionally, I find the install bugs during my sabayon installation, the results is that my **Gnome** 3.6 version cannot function well. To be disspointed, the *System* menu just gone. and some menu panel and desktop background missing too. Hey, hey, hey! A sound reminds me that I still have another default selectioon for desktop windows manager: **Fluxbox**, It's Great!  
+The core configure directory directory is ~/.fluxbox, and that's all.
