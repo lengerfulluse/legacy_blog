@@ -26,29 +26,44 @@ After finish the basic configure for the slim, and set the
 However, we should notice that the /etc/slim.conf configure script file will automatically read the /etc/X11/Sessions/ directory to 
 find the default multiply Session, so when you login in with the slim, you could select your particular session with a simple F1 key.  
 Otherwise, if you want to set the default session environment, the simplest way is just:  
+
 	ln -s /etc/X11/Sessions/fluxbox ~/.xsession
+
 And let's conclude the above process. Simplely, if we want to create a X window system with Xorg server, what exactly methods we need to do
 contains only three steps:  
-- Install the Xorg server related source and config for them.
-	- Setting the kernel support for the input and video driver support. here we should notice that there exists some problems compatiable 
+
+1. Install the Xorg server related source and config for them.
+
+  * Setting the kernel support for the input and video driver 
+support. here we should notice that there exists some problems compatiable 
 problem related to the lagecy video drivers with the KMS\(Kernel ModSet tenique\), so we should first disable all of the driver for the video. 
 and then select the proper "nouveau" or "nvidia" drivers. and the "endev" input driver.
-	- Istall the related driver as listed above and set the corresponding support for the KMS technique.
+     * Istall the related driver as listed above and set the 
+corresponding support for the KMS technique.
 		
-		equo install ${qlist -CI x11-drivers}
-	- Install the Xorg server, and further configure manually.
-		equo install xorg-server
-	- configure the /etc/X11/Xorg.conf.d/ directory files. for the keyboard and Screen resulations.
-	- Verify the successful installation of the xorg with command `startx`, for abvious and essy test setting, you can first install 
+	equo install ${qlist -CI x11-drivers}
+     * Install the Xorg server, and further configure manually.
+	equo install xorg-server
+     * configure the /etc/X11/Xorg.conf.d/ directory files. for the 
+keyboard and Screen resulations.
+     * Verify the successful installation of the xorg with command 
+`startx`, for abvious and essy test setting, you can first install 
 simple *xterm* and *twm* to test the xorg's installation and configuration.
-- Install a window manager or desktop environment. After you can validate the success of xorg server, the next thing you should complete is to 
+
+2.  Install a window manager or desktop environment. After you can 
+validate the success of xorg server, the next thing you should complete is to 
 arrange a slave for the xorg\-server boss. And the xorg just assigns lots of dirty and hardship work to it's slave, namely window manager, or 
 more functional Desktop environment. Formally, window manager is a kind of programs which are reponsible for the arrangement, sechdule and 
 position of the GUI programms. Here I will just install the most famous lightweight, **Fluxbox**.  
+
 	equo install fluxbox
+
 and after its installation, you can just configure it's behaves accroding to the conf.d in \$HOME directory ~/.fluxbox. such as you can 
 setting the global keyboard shortcuts, the menu content, the wallpaper, the slit and of course the applet widget in the taskbar slit.
-- Choose your favirate Login manager. Yes, don't take it for grant, allthough there will be no any problems if you type the command `startx` 
+
+3.  Choose your favirate Login manager. Yes, don't take it for grant, 
+allthough there will be no any problems if you type the command `startx` 
+
 and following by the command `startfluxbox`. or more simplely to edit the .xinitrc file in your home directory to add the 'startfluxbox' 
 command in this. however, leave no consideration for the issues of security from the terminal, if you just do your daily work in X window 
 envrioment, it becomes naturally that there is no necessary for the intermediate steps for execute all this command in console. That's where 
