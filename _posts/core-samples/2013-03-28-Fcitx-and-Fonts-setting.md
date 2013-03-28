@@ -32,4 +32,19 @@ environment variables in .xinitrc. if you use Slim, you could put it in
 the xsessions files.  Provided that You locale is not POSIX or C, it 
 will works.  
 
+#### Install fonts on Sabayon\(Gentoo\) manual####
+First you should copy the fonts into a system fonts directory or 
+user self-definition directory.  And if you use the self-definition 
+directory, you should add the FontPaths directory in the xorg.conf 
+directory.  
+Second, you need to enter the font directory, and construct the 
+fonts.scale and fonts.dir files for indexing of fonts. with the 
+following commands. 
+`mkfontscale`
+`mkfontdir`  
+Finally, we need to reconstruct the fonts cached with command  
+`fc-cached -fv`  
+After you reboot the X system, you could use the command `fc-list | grep 
+-i font-name`  
 
+And that's all. 
