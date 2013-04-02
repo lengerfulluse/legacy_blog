@@ -65,7 +65,14 @@ Git**](http://www.google.com/search?q=pro+git).
 Also we can do a simple demonstration together. Any prolem feel free to contact me any time.  
 #### Some Conflict Screenshot and Howto Emerge Conflict ####
 - **git push failure**  
-  <img src="/assets/img/git/push-conflict.png" />
-  ![push failure](/assets/img/git/push-conflict.png)  
+  ![push failure](/assets/img/git/push-conflict.png) 
+- **git pull to emerge**
+  ![pull emerge](/assets/img/git/pull-emerge-conflict.png)
+- **content in a conflict file**
+  ![cotent](/assets/img/git/conflict-content.png)
+
+####Reference####
+[**Generating SSH keys**](https://help.github.com/articles/generating-ssh-keys)  
+[**\_config.yml**](http://jekyllrb.com) 
 
    
