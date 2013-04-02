@@ -65,6 +65,7 @@ Git**](http://www.google.com/search?q=pro+git).
 Also we can do a simple demonstration together. Any prolem feel free to contact me any time.  
 #### Some Conflict Screenshot and Howto Emerge Conflict ####
 - **git push failure**  
-  ![push failure](_assets/img/git/push-conflict.png)  
+  <img src="{{ post.root }}_assets/img/git/push-conflict.png" />
+  ![push failure]({{ post.root }}_assets/img/git/push-conflict.png)  
 
    
