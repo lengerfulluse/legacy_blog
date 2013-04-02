@@ -72,7 +72,7 @@ Also we can do a simple demonstration together. Any prolem feel free to contact 
   ![cotent](/assets/img/git/conflict-content.png)
 
 ####Reference####
-[**Generating SSH keys**](https://help.github.com/articles/generating-ssh-keys)  
-[**\_config.yml**](http://jekyllrb.com) 
+**\[1\]** [**Generating SSH keys**](https://help.github.com/articles/generating-ssh-keys)     
+**\[2\]** [**\_config.yml**](http://jekyllrb.com) 
 
    
