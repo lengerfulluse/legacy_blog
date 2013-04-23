@@ -1,0 +1,41 @@
+---
+layout: post
+category: "work"
+tags: [note, Xorg]
+---
+{% include JB/setup %}
+In this article, we focus on some basic and foundational introduction about the X11 related topics in our linux experience.  
+####Xorg Server ####
+There are mainly two sub\-sections in the Xorg Server section. firstly, I will conduct some introduction and explanation about the history and roles Xorg take in our hole GUI system. secondly, I'll give a practical example to show the process of problem trackback and solved. 
+
+#### Login Manager or Display Manager ####
+To some kinds, when you setup the xorg server and install the Window manager or Desktop Environment you could start the X11 system with just a command `start x`. But if you want the show the GUI graphic system all the way, and you won't want to start the x system in console, you need the help of **Login manger**, the default login manager for the Gnome is gdm. and correspondly, for Fluxbox, the slim is an ideal choice. Just with these simple line, you could use it.  
+	
+	equo install x11-misc/slim
+	vim /etc/conf.d/xdm
+and the make the change of the following:, which is the core of choice.
+
+	---
+	DISPLAYMANAGER="slim"
+	---
+finally, you should add the xdm to default run\-levels.
+
+	rc-update add xdm default  
+
+Also you should need to set the $XSession variable, for the default 
+sessions when login with slim. the common and the most method is:  
+	cp /etc/X11/Sessions/fluxbox ~/.xsession
+And after this, you will be able to login fluxbox with slim.
+
+#### Troubleshoting ####
+once installed the sabayon system, I attempt to upgrade the system 
+according to the instrument by the equo, `equo update`, however, 
+problems arase when I restart the system. I just cannot start the window 
+display manager\(also login manager\). so when I invoke the xorg log in 
+directory: `/var/log/Xorg.0.log/`, to find the problems, the first time, 
+I infer that it's maybe the problem of Xorg configure files accroding to 
+the last two error line: Screen0 cannot find.  
+Then I attempt to reveal the whole process of installing the xorg on 
+gentoo documentation.  
+#####History of Xorg#####
+The X.org project provides an open implementation of X window System.	
