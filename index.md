@@ -6,7 +6,7 @@ tagline:
 	The goal of life is to make your heartbeat match the beat of the universe, to match your nature with Nature.  
    	                                                                              --- Joseph Campbell   
 	Something to do; Someone to love; Something to hope for.  
-                                                										                                       --- Immanuel Kant
+                                                				   --- Immanuel Kant
 #### Newer Posts ####
 {% include JB/setup %}
 <ul class="posts">
