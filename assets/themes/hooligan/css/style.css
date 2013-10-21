@@ -7,7 +7,6 @@
 /* line 13, ../_sass/_base.scss */
 html, body {
   background-color: #2a2a2a;
-  background: url(../images/bgs/body.png) repeat;
 }
 
 /* line 18, ../_sass/_base.scss */
@@ -161,7 +160,7 @@ hr {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  background: #202020;
+  background: #404040;
   background-color: rgba(0, 0, 0, 0.3);
   border: none;
   padding: 20px 20px 10px;
@@ -368,7 +367,7 @@ div.posts article div.date time {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  background: #202020;
+  background: #404040;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -381,7 +380,7 @@ div.posts article div.date time {
 /* This is for your site's custom styling */
 /* line 3, ../_sass/_custom.scss */
 div.sidebar section {
-  background: #202020;
+  background: #404040;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
