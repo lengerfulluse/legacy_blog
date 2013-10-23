@@ -1,8 +1,8 @@
 ---
 layout: post
-category : lankar 
+category : life 
 tagline: ""
-tags : [life]
+tags : [lankar]
 ---
 {% include JB/setup %}
 

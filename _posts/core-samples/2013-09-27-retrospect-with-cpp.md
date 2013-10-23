@@ -1,6 +1,6 @@
 ---
 layout: post
-category: langauge
+category: languages
 tags: [interview, cpp]
 ---
 {% include JB/setup %}

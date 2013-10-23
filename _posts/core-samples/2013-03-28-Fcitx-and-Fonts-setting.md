@@ -1,7 +1,7 @@
 ---
 layout: post
-category: "work"
-tags: [note, fcitx]
+category: "notes"
+tags: [linux, fcitx]
 ---
 {% include JB/setup %}
 

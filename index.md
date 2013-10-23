@@ -3,10 +3,6 @@ layout: page
 title: 
 tagline: 
 ---
-	The goal of life is to make your heartbeat match the beat of the universe, to match your nature with Nature.  
-   	                                                                              --- Joseph Campbell   
-	Something to do; Someone to love; Something to hope for.  
-                                                				   --- Immanuel Kant
 ## If I Rest, I Rust ##
 The significant inscription found on an old key \--If I rest, I rust\-- would be an excellent motto for those who are afflicted with the slightest bit of idleness. Even the most industrious person might adopt it with advantage to serve as a reminder that, if one allows his faculties to rest, like the iron in the unused key, they will soon show signs of rust and, ultimately, cannot do the work required of them.  
 
@@ -23,3 +19,5 @@ Labor vanquishes all \- not inconstant, spasmodic, or ill\-directed labor; but f
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+**The goal of life is to make your heartbeat match the beat of the universe, to match your nature with Nature.**  

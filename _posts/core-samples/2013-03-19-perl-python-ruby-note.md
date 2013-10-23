@@ -1,7 +1,7 @@
 ---
 layout: post
-category: "work"
-tags: [comparision, language]
+category: "languages"
+tags: [comparision, perl, python, ruby]
 ---
 {% include JB/setup %}
 

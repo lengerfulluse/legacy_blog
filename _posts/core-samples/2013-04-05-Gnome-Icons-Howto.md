@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "work"
+category: "notes"
 tags: [tutorial, linux]
 ---
 {%include JB/setup %}

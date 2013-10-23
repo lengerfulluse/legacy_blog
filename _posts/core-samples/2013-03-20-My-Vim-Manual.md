@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "note"
+category: "notes"
 tags: [work, tutorial]
 ---
 {% include JB/setup %}

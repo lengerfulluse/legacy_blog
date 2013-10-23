@@ -1,8 +1,8 @@
 ---
 layout: post
-category: comparison
+category: languages 
 tagline: ""
-tags: [work, developer]
+tags: [ruby, python, comparison]
 ---
 {% include JB/setup %}
 
