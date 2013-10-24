@@ -6,7 +6,7 @@ tags: [algorithm, interview]
 {% include JB/setup %}
 
 ### 1. A Simple Algorithm for Print All Combination of Balanced Parentheses###     
-{% highlight cpp %}
+{% highlight cpp linenos=table %}
     #include<iostream>
     #include<cassert>
     using namespace std;
